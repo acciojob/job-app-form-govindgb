@@ -3,13 +3,50 @@
 <html>
 
 <head>
+	<title>Job App Form
+	</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+	<form action="" method="get">
+		<label>Enter your Full name*</label>
+		<input type="text"  id="name" placeholder="Enter Name" required>
+		<label>Enter your Full Email*</label>
+		<input type="email" id="email" placeholder="Enter email" required>
+
+		<p>Gender*</p>
+		<input type="radio" name="name" value="name" required><span>male</span>
+		<input type="radio" name="name" value="name" required><span>female</span>
+
+
+		<select name="laptop" id="laptop" required>
+			<option value="Apple"> Apple</option>
+			<option value="asus">Asus</option>
+			<option value="HP">HP</option>
+		</select>
+
+		<label>Enter age*</label>
+		<input type="text" id="age" required placeholder="enter your Age">
+
+		<label>Enter Password*</label>
+		<input type="password" id="password" placeholder="Enter password" required>
+
+		<label>Date*</label>
+		<input type="date" id="date" required>
+
+		<label>Enter your portfolio link(optional)</label>
+		<input type="text" id="portfolio">
+		<input type="submit" name="submit" value="submit">
+	</form>
+
+
+
+
+	<script type="text/javascript" src="./script.js">
+	</script>
 
 </body>
 
