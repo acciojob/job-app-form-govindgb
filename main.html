@@ -11,13 +11,14 @@
 <body>
 	<!-- the entire body must be written by student -->
 
-	<form action="" method="get">
-		<label for="name">name*</label>
-		<input type="text"  id="name" placeholder="Enter Name" required>
-		<label for="email">email*</label>
+	<form action="" method="post">
+		<label for="name">Name</label>
+		<input type="text"  id="name" name="name"  required>
+        <br>
+		<label for="email">email</label>
 		<input type="email" id="email" placeholder="Enter email" required>
 
-		<label for="gender">gender*</p>
+		<label for="gender">gender</p>
 		<input type="radio" name="gender" value="male" required><span>male</span>
 		<input type="radio" name="gender" value="female" required><span>female</span>
 
@@ -28,14 +29,14 @@
 			<option value="HP">HP</option>
 		</select>
 
-		<label for="age">Age*</label>
-		<input type="text" id="age" required placeholder="enter your Age">
+		<label for="age">Age</label>
+		<input type="text" id="age"  placeholder="enter your Age" required> 
 
 		<label for="password">Password*</label>
 		<input type="password" id="password" placeholder="Enter password" required>
 
-		<label for="date">date*</label>
-		<input type="date" id="date" required>
+		<label for="date">date</label>
+		<input type="date" id="dob" required>
 
 		<label for="portfolio">Portfolio</label>
 		<input type="text" id="portfolio">
